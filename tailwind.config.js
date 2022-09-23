@@ -11,7 +11,8 @@ module.exports = {
     },
     extend: {
       backgroundImage:{
-        'hero-image':'url("./assets/modella.jpg")'
+        'hero-image':'url("./assets/switchbg.jpg")',
+        'work-image':'url("./assets/home-digital-agency-img-02.jpg")'
       }
     },
   },

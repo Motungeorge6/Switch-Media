@@ -1,0 +1,41 @@
+.container {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  border: 2px solid #eee;
+  border-radius: 3px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 3px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.6s ease;
+}
+
+.inner-overlay {
+  position: relative;
+}
+
+.inner-overlay div {
+  position: absolute;
+  top: 110px;
+  left: 50px;
+  color: #fff;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
